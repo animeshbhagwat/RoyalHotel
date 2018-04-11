@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>New Royal</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all" />
+ 
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="css/ie6.css" media="all" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/ie7.css" media="all" /><![endif]-->
+</head>
+<body>
+<div id="header">
+  <ul>
+    <li class="selected"><a href="index.html">home</a></li>
+    <li><a href="service.php">our Services</a></li>
+    <li><a href="restaurant.php">Restaurant </a></li>
+        <li><a href="Reservation.php">Reservation</a></li>
+    
+    <li><a href="contact.html">contact us</a></li>
+  </ul>
+  <div class="logo"><a href="index.html"><img src="images/logo1.gif" alt="" /></a></div>
+</div>
+<div id="body">
+  <div class="featured">
+    <div>
+      <ul>
+        <li><a href="#"><img src="images/backyard.jpg" alt="" /></a></li>
+        <li><a href="#"><img src="images/garden.jpg" alt="" /></a></li>
+      </ul>
+      <div class="section">
+        <div> 
+         <img class="mySlides" src="images/2a.jpg" style="width:98%">
+          <img class="mySlides" src="images/images3a.jpg" style="width:98%">
+          <img class="mySlides" src="images/images5a.jpg" style="width:98%">
+           <img class="mySlides" src="images/images1a.jpg" style="width:98%">
+           <img class="mySlides" src="images/images6a.jpg" style="width:98%">
+   <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+         
+        </div>
+      </div>
+    </div>
+	
+  </div>
+  
+  <div class="content"> <span class="heading"><img src="images/aaaa.jpg" alt="" /></span>
+  
+    <div>
+      <div>
+        <ul>
+          <li><a href="#"><img src="images/Umaid Residency.jpg" alt="" width="200" height="200" /> <span>Royal Recidancy</span></a></li>
+          <li><a href="#"><img src="images/Royal bhavan.jpg" alt="" width="200" height="200"/> <span>Royal bhavan</span></a></li>
+          <li><a href="#"><img src="images/RoyalMahal.jpg" width="200" height="200" /> <span>Royal Mahal</span></a></li>
+          <li><a href="#"><img src="images/royalHaveli.jpg" alt="" width="200" height="200"/> <span>Royal Haveli</span></a></li>
+         
+        </ul>
+        <h4></h4>
+      </div>
+      <ul>
+        <li>
+          <h3>ROYAL ELEGANCE</h3>
+          <p>
+New Royal hotel offers you a wide variety of accommodation ranging from Standard rooms to Suites that will suite every budget. Our rooms at have been designed and furnished to showcase the skill and expertise of Rajasthani artisans. The complete hotel is wi-fi enabled.
+										
+										<ul><b>
+										<li> Private balconies</li>
+										<li > European style bathrooms </li>
+										<li> Air conditioning </li>
+										<li> Direct cable LED TV </li>
+										<li > Wi-fi coverage in all rooms </li>
+										<li> Study Desk </li>
+</b>
+									</ul></p>
+
+        </li>
+       
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="footer">
+  <div>
+    <div class="connect">
+      <h4>Follow us:</h4>
+      <ul>
+        <li class="facebook"><a href="#">facebook</a></li>
+        <li class="twitter"><a href="#">twitter</a></li>
+      </ul>
+    </div>
+    <p>Copyright &copy; <a href="#">NewRoyalHotel.com </a></p>
+  </div>
+</div>
+</body>
+</html>
