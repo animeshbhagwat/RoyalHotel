@@ -1,1 +1,1 @@
-# RoyalHotel is web pdevelopment project for online hotel booking using php and mysql.
+RoyalHotel is web development project for online hotel booking using PHP and MySQL.
